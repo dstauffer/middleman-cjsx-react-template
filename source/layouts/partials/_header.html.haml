@@ -1,0 +1,11 @@
+#main-nav.column.full-col
+  .container
+    %h3
+      %a(href='/')
+        = image_tag 'images/logo-transparent.png'
+        TONIC WEB RESOURCES
+
+.column.full-col.section-header
+  .container
+    %h2 #{data.page.title || "Section Title"}
+    %p #{data.page.description || "Section Description ..."}

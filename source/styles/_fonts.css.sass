@@ -1,0 +1,112 @@
+html, body
+  font-family: 'Bitter', serif
+
+$default-text-shadow-color: rgba(0, 0, 0, 0.75)
+$default-text-shadow-blur: 1px
+$default-text-shadow-v-offset: 1px
+
+h1
+  font-size: 40px
+  line-height: 44px
+  margin-bottom: 20px
+  @media #{$lg}
+    font-size: 34px
+    line-height: 38px
+  @media #{$md}
+    font-size: 30px
+    line-height: 34px
+    margin-bottom: 15px
+  @media #{$sm}
+    font-size: 22px
+    line-height: 26px
+  &.h-1
+    text-align: center
+    margin-bottom: 30px
+
+h2
+  font-size: 32px
+  line-height: 36px
+  margin-bottom: 10px
+  @media #{$lg}
+    font-size: 28px
+    line-height: 32px
+  @media #{$md}
+    font-size: 26px
+    line-height: 30px
+    margin-bottom: 6px
+  @media #{$sm}
+    font-size: 18px
+    line-height: 22px
+
+h3
+  font-family: 'Source Sans Pro', sans-serif
+  font-weight: 700
+  letter-spacing: 1px
+  font-size: 28px
+  line-height: 32px
+  margin-bottom: 10px
+  @media #{$sm}
+    font-size: 20px
+
+h4
+  font-size: 24px
+  line-height: 28px
+  margin-bottom: 10px
+
+h5
+  font-size: 18px
+  line-height: 22px
+  margin-bottom: 10px
+
+h6
+  font-size: 22px
+  line-height: 26px
+  margin-bottom: 10px
+  text-transform: uppercase
+
+p
+  font-size: 16px
+  line-height: 24px
+  margin-bottom: 15px
+  @media #{$sm}
+    font-size: 14px
+    line-height: 18px
+
+a
+  text-decoration: none
+  color: $light-blue
+  &:hover
+    text-decoration: underline
+    color: $dark-blue
+
+ul
+  padding: 0 0 20px 20px
+  li
+    font-size: 16px
+    line-height: 20px
+    margin-bottom: 15px
+    @media #{$sm}
+      font-size: 14px
+      line-height: 18px
+
+.bold
+  font-weight: bold
+
+.caps
+  text-transform: uppercase
+
+.underline
+  text-decoration: underline
+
+.truncate
+  white-space: nowrap
+  text-overflow: ellipsis
+  overflow: hidden
+
+.detail, .code
+  color: $dark-blue
+  font-weight: bold
+
+.code
+  font-style: italic
+
