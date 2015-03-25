@@ -1,5 +1,6 @@
 # React Template
-The intention of this repo is to standardize and index Tonics best web practices, and to provide templates for new projects.
+This is an example template for a middleman project that is using react js, with coffeescript jsx files (cjsx)
+
 This site is using the static site generator [Middleman](http://middlemanapp.com).
 
 ## Dependencies For Development
